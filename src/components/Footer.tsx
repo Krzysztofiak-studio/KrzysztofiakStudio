@@ -20,7 +20,7 @@ const Footer = () => (
       </div>
 
       <p className="text-xs text-muted-foreground tracking-wide-ui uppercase">
-        © 2025 Studio Miarowe. Wszelkie prawa zastrzeżone.
+        © 2025 Krzysztofiak Studio. Wszelkie prawa zastrzeżone.
       </p>
     </div>
   </footer>

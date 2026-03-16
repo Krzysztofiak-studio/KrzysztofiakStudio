@@ -37,7 +37,7 @@ const HeroSection = () => (
       >
         <img
           src={heroImage}
-          alt="Eleganckie wnętrze zaprojektowane przez Studio Miarowe"
+          alt="Eleganckie wnętrze zaprojektowane przez Krzysztofiak Studio"
           className="object-cover w-full h-full grayscale-[20%] hover:grayscale-0 transition-all duration-1000"
           loading="eager"
         />

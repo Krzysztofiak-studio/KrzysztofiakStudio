@@ -38,7 +38,7 @@ const ContactSection = () => {
                 <div className="w-12 h-12 border border-border flex items-center justify-center">
                   <Mail size={18} strokeWidth={1} />
                 </div>
-                <span className="text-foreground">kontakt@studiomiarowe.pl</span>
+                <span className="text-foreground">kontakt@krzysztofiak.pl</span>
               </div>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 border border-border flex items-center justify-center">

@@ -28,7 +28,7 @@ const AboutSection = () => {
           className="space-y-6 text-muted-foreground leading-relaxed"
         >
           <p>
-            Studio Miarowe łączy wrażliwość estetyczną z techniczną precyzją. Każdy projekt
+            Krzysztofiak Studio łączy wrażliwość estetyczną z techniczną precyzją. Każdy projekt
             rozpoczynamy od dogłębnej analizy przestrzeni, potrzeb i stylu życia naszych klientów.
           </p>
           <p>
