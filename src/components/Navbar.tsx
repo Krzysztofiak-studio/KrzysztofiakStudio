@@ -26,6 +26,10 @@ const Navbar = () => {
             <a
               key={link.href}
               href={link.href}
+              onClick={(e) => {
+                e.preventDefault();
+                document.querySelector(link.href)?.scrollIntoView({ behavior: "smooth" });
+              }}
               className="hover:text-foreground transition-colors duration-300"
             >
               {link.label}
