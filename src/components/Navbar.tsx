@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const navLinks = [
   { href: "#about", label: "O studiu" },
@@ -16,8 +17,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <a href="#" className="text-2xl font-serif tracking-display">
-          STUDIO<span className="font-light italic text-accent">Miarowe</span>
+        <a href="#" className="flex items-center gap-3">
+          <img src={logo} alt="Krzysztofiak Studio" className="h-12 w-auto" />
         </a>
 
         <div className="hidden md:flex gap-8 text-xs uppercase tracking-wide-ui font-medium text-muted-foreground">
