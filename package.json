@@ -13,7 +13,7 @@
     "test:watch": "vitest",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://krzysztofiak-studio.github.io/KrzysztofiakStudio",
+  "homepage": "https://krzysztofiak-studio.github.io/KrzysztofiakStudio/",
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.11",

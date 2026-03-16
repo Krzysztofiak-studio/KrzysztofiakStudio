@@ -44,7 +44,7 @@ const ContactSection = () => {
                 <div className="w-12 h-12 border border-border flex items-center justify-center">
                   <MapPin size={18} strokeWidth={1} />
                 </div>
-                <span className="text-foreground">Warszawa, Polska</span>
+                <span className="text-foreground">Schodnia, Polska</span>
               </div>
             </div>
           </motion.div>
