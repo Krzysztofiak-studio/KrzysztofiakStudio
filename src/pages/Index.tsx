@@ -6,11 +6,13 @@ import PortfolioSection from "@/components/PortfolioSection";
 import WhyUsSection from "@/components/WhyUsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => (
   <div className="font-sans text-foreground selection:bg-accent selection:text-primary-foreground">
     <Navbar />
     <HeroSection />
+    <ScrollToTop />
     <AboutSection />
     <ServicesSection />
     <PortfolioSection />
