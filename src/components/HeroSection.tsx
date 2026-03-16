@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-interior.jpg";
 
-const transition = { duration: 0.8, ease: [0.16, 1, 0.3, 1] };
+const transition = { duration: 0.8, ease: [0.16, 1, 0.3, 1] as const };
 
 const HeroSection = () => (
   <header className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-secondary">
